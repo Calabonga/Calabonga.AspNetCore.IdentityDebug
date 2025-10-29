@@ -45,19 +45,19 @@ Sometime authentication server is far away, and you need to design a views for s
         },
         {
           "key": "role",
-          "value": "InterviewService"
+          "value": "MyService"
         },
         {
           "key": "role",
-          "value": "CompanySupervisor"
+          "value": "Supervisor"
         },
         {
           "key": "role",
-          "value": "RegionSupervisor"
+          "value": "Manager"
         },
         {
           "key": "role",
-          "value": "DepartmentSupervisor"
+          "value": "Editor"
         }
       ]
     }
