@@ -1,6 +1,6 @@
 ﻿# Calabonga.AspNetCore.IdentityDebug for ASP.NET Core
 
-Simple but very helpful library that's allow you to attach required identity (ClaimIrentity) for View or PageModel debuging.
+Simple but very helpful nuget package [Calabonga.AspNetCore.IdentityDebug](https://www.nuget.org/packages/Calabonga.AspNetCore.IdentityDebug) that's allow you to attach required identity (ClaimIrentity) for View or PageModel debuging.
 
 ## Why
 
@@ -79,8 +79,6 @@ Sometime authentication server is far away, and you need to design a views for s
 
 4. Done. When you start your application it load file from the path you set and attach into context user with claims you define in file.
   
-=screenshot=
-
 5. You can use identity-files as you wish. Something like this:
     ```csharp
         public override void ConfigureServices(WebApplicationBuilder builder)
