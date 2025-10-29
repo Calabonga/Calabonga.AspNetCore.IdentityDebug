@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.1</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>1.0.0-beta.1</Version>
+		<PackageIconUrl>https://www.calabonga.net/images/logo.png</PackageIconUrl>
+		<RepositoryUrl>https://github.com/Calabonga/Calabonga.AspNetCore.IdentityDebug</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/Calabonga/Calabonga.AspNetCore.IdentityDebug</PackageProjectUrl>
+		<PackageTags>calabonga, extensions, aspnetcore, identity, debug, custom, authentication, scheme</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Authors>Calabonga</Authors>
+		<Copyright>Calabonga SOFT © 2024-$([System.DateTime]::Now.ToString(yyyy))</Copyright>
+		<Company>Calabonga SOFT</Company>
+		<Description>Debugging Identity on ASP.NET Core? This is ease with this tool.</Description>
+		<Product>AspNetCore Identity Debug with faked claims</Product>
+		<PackageId>Calabonga.AspNetCore.IdentityDebug</PackageId>
+		<PackageReleaseNotes>First release.</PackageReleaseNotes>
+		<PackageIcon>logo.png</PackageIcon>
+
+		<Title>Identity Debug with fake ClaimsIdentity</Title>
+		<RepositoryType>git</RepositoryType>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore" Version="2.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
